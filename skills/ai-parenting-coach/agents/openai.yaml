@@ -1,4 +1,4 @@
 interface:
-  display_name: "AI 育儿教练"
-  short_description: "亲子沟通、隔代冲突、带娃计划和长期教育规划智能助手"
-  default_prompt: "Use $ai-parenting-coach，帮我把一次亲子冲突梳理成今晚可执行的沟通方案。"
+  display_name: "好爸妈 Skill"
+  short_description: "3-12岁亲子沟通、带娃计划、隔代冲突和长期教育规划助手"
+  default_prompt: "Use $ai-parenting-coach，先帮我补齐家庭背景卡，再处理一次亲子冲突。"

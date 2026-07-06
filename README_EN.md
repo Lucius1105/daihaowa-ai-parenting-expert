@@ -1,13 +1,16 @@
-# AI Parenting Coach Skill
+# Good Parents Skill | AI Parenting Coach
 
 "Not to make children more obedient, but to help adults become calmer, more observant, and better-boundaried."
 
-![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
+![License](https://img.shields.io/badge/License-Free%20Non--Commercial-red)
 ![Agent Skill](https://img.shields.io/badge/Agent%20Skill-Claude%20Code%20%7C%20Codex%20%7C%20WorkBuddy-blue)
 ![Language](https://img.shields.io/badge/Language-Chinese%20%7C%20English-orange)
 
 2 parenting prompts × 1 complete Agent Skill × Family Context Card × 6-step resolution engine  
 Parent-child conflict / homework meltdowns / screen boundaries / grandparent conflict / school transition / long-term education planning
+
+Current version: v1.0.0. Free for personal, family, public-interest, and non-commercial education use. Commercial use requires written permission.
 
 [中文](README.md) | English
 
@@ -87,7 +90,7 @@ Most parenting content has two problems:
 - it is too theoretical to use tonight
 - or it treats the child as a problem to be fixed
 
-This project packages coaching questions, family-system thinking, calm parenting principles, and practical scripts into an open-source AI parenting skill.
+This project packages coaching questions, family-system thinking, calm parenting principles, and practical scripts into a source-available AI parenting skill that is free for personal and family use.
 
 Goal:
 
@@ -134,6 +137,27 @@ Best for:
 - absent-parent repair
 - family-system boundaries
 - long-term education planning from 0 to 18
+
+---
+
+## Age Scope
+
+v1.0 covers ages 0-18, but it does not treat every child the same.
+
+The strongest and most recommended range in v1.0 is ages 3-12, especially:
+
+- everyday parenting from preschool to primary school
+- school transition
+- homework, routines, procrastination, emotional meltdowns
+- disagreement between parents and grandparents
+- family rules, screen time, and parent-child connection
+
+Other age ranges can also use it:
+
+- Ages 0-3: better for safety, rhythm, attachment, and caregiver response.
+- Ages 12-18: better for respect, negotiation, boundaries, privacy, study pressure, and long-term planning.
+
+For diagnosis, medication, self-harm, harm to others, domestic violence, abuse, severe school refusal, or ongoing mental-health crisis, seek qualified local professional support first.
 
 ---
 
@@ -184,13 +208,59 @@ For self-harm, harm to others, severe school refusal, suspected depression, susp
 
 ---
 
-## License and support
+## Free License and Non-Commercial Use
 
-MIT License. Free and open.
+This project is free for parents and caregivers. It is not sold as a course, and there is no paywall.
+
+You may:
+
+- use it for your own family
+- share it with friends and other parents
+- use it in public-interest, school, community, and non-commercial education settings
+- study, copy, and adapt it while keeping attribution and the project link
+
+Without prior written permission from the author, you may not use this project or derivative versions for commercial purposes, including but not limited to:
+
+- paid courses, bootcamps, coaching, consulting, or paid communities
+- commercial software, agents, SaaS products, plugins, prompt libraries, or membership materials
+- rebranding and redistributing it for a fee
+- commercial advertising, lead generation, or paid client delivery
+- model training, dataset construction, or closed-source commercial products
+
+The author reserves the right to pursue unauthorized commercial use. See [LICENSE](LICENSE) for the full terms.
+
+---
+
+## Support
+
+If this skill helps you yell less, helps a child suffer less, or gives your family more clarity for long-term education, you are welcome to support the project with a small coffee donation.
+
+A child's education is a long-term and important project. One private tutoring session often starts around 200 RMB; if you find this prompt valuable for your family's long-term education, your support helps us keep maintaining and improving it for more children and families.
+
+I am also a father. I want to create value openly and legitimately, including earning tuition for my own child through useful work. Thank you for your support and investment.
+
+![WeChat support QR code](assets/wechat-pay-qr.jpg)
+
+---
+
+## Author and Channels
+
+Author: Xu Peilin / 阿徐教练 / Founder of 雨后甘霖
+
+All-channel name: 阿徐教练 | 雨后甘霖
+
+WeChat Official Account / WeChat Channels: 阿徐教练
+
+---
+
+## Version and Updates
+
+- Current version: [v1.0.0](VERSION)
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
+- License: [LICENSE](LICENSE)
 
 If it helps you:
 
 - Star this repository
 - Share it with parents who need it
 - Open an Issue with real-world scenarios
-- A small coffee-support link may be added later

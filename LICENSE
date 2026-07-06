@@ -1,21 +1,43 @@
-MIT License
+# AI Parenting Coach Skill Free Non-Commercial License v1.0
 
-Copyright (c) 2026 Xu Peilin
+Copyright (c) 2026 Xu Peilin / 阿徐教练 / 雨后甘霖
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 中文授权条款
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+本项目源码和提示词公开，供个人、家庭、公益组织、学校教师和非商业教育场景免费使用、学习、复制和改编。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+未经作者书面许可，不得将本项目或其衍生版本用于任何商业用途，包括但不限于：
+
+- 作为付费课程、训练营、咨询服务、陪跑服务的一部分售卖；
+- 作为商业软件、智能体、SaaS、插件、知识库、提示词库或会员产品的一部分售卖；
+- 对本项目进行改名、改包装后收费分发；
+- 将本项目用于商业广告、商业获客或商业交付；
+- 将本项目内容用于模型训练、数据集构建或闭源商业产品。
+
+引用、分享、二次改编时，请保留原作者和项目链接。
+
+如果需要商业合作、机构内训、产品集成或付费授权，请先联系作者取得书面许可。
+
+作者保留对未经授权商业使用追究责任的权利。
+
+本项目不提供医学、心理、法律或安全事件的专业服务替代。使用者应自行判断风险，并在必要时寻求当地专业人士帮助。
+
+## English License Terms
+
+This project is source-available and free for personal, family, public-interest, teacher, and non-commercial educational use.
+
+Without prior written permission from the author, you may not use this project or derivative versions for commercial purposes, including but not limited to:
+
+- selling it as part of paid courses, coaching programs, consulting services, or paid communities;
+- packaging it into commercial software, agents, SaaS products, plugins, knowledge bases, prompt libraries, or membership products;
+- rebranding and redistributing it for a fee;
+- using it for commercial advertising, lead generation, or paid client delivery;
+- using the content for model training, dataset construction, or closed-source commercial products.
+
+When sharing, quoting, or adapting this project, please keep attribution and the project link.
+
+For commercial collaboration, institutional training, product integration, or paid licensing, obtain written permission from the author first.
+
+The author reserves the right to pursue unauthorized commercial use.
+
+This project does not replace medical, mental-health, legal, child-protection, or emergency support. Users are responsible for risk judgment and should seek qualified local professionals when needed.
