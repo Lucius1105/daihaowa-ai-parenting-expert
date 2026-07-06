@@ -1,88 +1,237 @@
-# Calm Parenting Coach
+# AI 育儿教练 Skill
 
-平和育儿教练，一个给父母、照护者、老师和教练使用的 AI Agent Skill。
+"不是让孩子更听话，而是让大人先稳住、看见孩子、守住边界。"
 
-它帮助你把育儿问题从"怎么管孩子"转成"孩子和成人此刻各自卡在哪里"，再生成今晚就能执行的小方案。
+![License](https://img.shields.io/badge/License-MIT-green)
+![Agent Skill](https://img.shields.io/badge/Agent%20Skill-Claude%20Code%20%7C%20Codex%20%7C%20WorkBuddy-blue)
+![Language](https://img.shields.io/badge/Language-中文%20%7C%20English-orange)
 
-核心方向：
+2 份育儿专家提示词 × 1 个完整 Agent Skill × 家庭背景卡 × 六步问诊流  
+亲子冲突 / 作业崩溃 / 屏幕边界 / 隔代冲突 / 幼小衔接 / 长期教育规划
 
-- 少吼、少羞辱、少鸡娃
-- 多看见、多协商、多练习
-- 先稳住大人，再稳住孩子
-- 既尊重孩子，也保留清楚边界
+中文 | [English](README_EN.md)
 
-## 适合处理
+---
 
-- 孩子写作业崩溃、拖延、磨蹭
-- 情绪爆发、哭闹、顶嘴、亲子冲突
-- 屏幕时间、游戏边界、学习习惯
-- 周末、旅行、寒暑假带娃计划
-- 父母、老人、老师之间的沟通协调
-- 家长不想再吼，但不知道还能怎么做
+## 30 秒上手
 
-## 不适合处理
+只想复制提示词，直接看这里：
+
+- [AI 育儿专家提示词](prompts/zh/parenting-expert-prompt.md)
+- [家庭教育规划师提示词](prompts/zh/family-education-strategist-prompt.md)
+
+想安装成 Claude Code / Codex / WorkBuddy 可调用的完整 skill：
+
+```bash
+git clone https://github.com/Lucius1105/ai-parenting-coach-skill.git
+```
+
+Claude Code：
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.claude/skills/
+```
+
+Codex：
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.codex/skills/
+```
+
+WorkBuddy：
+
+```bash
+mkdir -p ~/.workbuddy/skills
+cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.workbuddy/skills/
+```
+
+装好后对 agent 说：
+
+```text
+使用 $ai-parenting-coach，我孩子 6 岁，准备上小学，平时奶奶带得比较多。最近写字和收拾书包总是拖，我一催就哭。先帮我判断问题，再给今晚能执行的方案。
+```
+
+---
+
+## 这是啥
+
+一句话：把一个家长的育儿困境，先整理成"家庭背景卡"，再用 AI 育儿教练帮你判断问题卡在哪里，最后给出能照着说、照着做的小方案。
+
+它不做三件事：
+
+- 不教你鸡娃
+- 不教你用恐吓、羞辱、体罚压住孩子
+- 不假装 AI 可以替代父母、医生、心理咨询师、社工或律师
+
+它主要做六件事：
+
+1. 帮大人先稳住情绪
+2. 判断问题卡在发展层、状态层、关系层，还是行动层
+3. 把任务拆到孩子能做到
+4. 给父母、老人、老师可直接说的话术
+5. 做 7 天微循环，而不是一次改完
+6. 遇到安全、医疗、心理、法律红线时提醒找专业支持
+
+---
+
+## 为什么做这个
+
+很多父母不是不爱孩子，而是在真实育儿现场里太累了。
+
+孩子写作业崩溃、老人越界、伴侣不配合、手机规则执行不下去、幼小衔接焦虑、每天都在"我是不是又吼了孩子"的内耗里打转。
+
+市面上很多育儿内容有两个问题：
+
+- 要么太理论，讲完还是不知道今晚怎么说
+- 要么太控制，把孩子当成需要被修理的问题
+
+所以我们做了这个开源 skill：把教练式提问、家庭系统视角、平和育儿方法和可执行话术打包成一个人人可用的 AI 育儿专家。
+
+它的目标很简单：
+
+> 帮更多父母少一点内耗，多一点稳定；帮更多孩子少一点被控制，多一点被看见。
+
+---
+
+## 两份提示词
+
+这个仓库先公开两份可复制提示词。
+
+### 第1份：AI 育儿专家提示词
+
+路径：
+
+```text
+prompts/zh/parenting-expert-prompt.md
+prompts/en/parenting-expert-prompt.md
+```
+
+适合：
+
+- 亲子冲突
+- 带娃计划
+- 学习习惯
+- 情绪爆发
+- 屏幕边界
+- 父母/老人/老师沟通
+
+### 第2份：家庭教育规划师提示词
+
+路径：
+
+```text
+prompts/zh/family-education-strategist-prompt.md
+prompts/en/family-education-strategist-prompt.md
+```
+
+适合：
+
+- 幼小衔接
+- 小学阶段能力培养
+- 隔代冲突
+- 父母长期缺位补位
+- 家庭系统边界
+- 0-18 岁长期教育规划
+
+---
+
+## 完整 Skill
+
+真正给 agent 安装调用的是：
+
+```text
+skills/ai-parenting-coach/SKILL.md
+```
+
+Skill 内部还带两份脱敏提示词模块：
+
+```text
+skills/ai-parenting-coach/references/parenting-expert-prompt.md
+skills/ai-parenting-coach/references/family-education-strategist-prompt.md
+```
+
+主流程会先判断用户问题类型：
+
+- 日常育儿问题 → 调用 `parenting-expert-prompt.md`
+- 长期规划 / 隔代冲突 / 家庭系统问题 → 调用 `family-education-strategist-prompt.md`
+
+---
+
+## 强制流程：先补齐家庭背景卡
+
+这是这个 skill 最重要的设计。
+
+所有孩子和家庭都不一样，所以 agent 不能一上来就给建议。用户必须先补齐：
+
+- 孩子：年龄、性别、年级/阶段、性格、兴趣、优势、最近困扰
+- 主要照护者：谁陪得最多，谁负责规则，谁容易情绪失控
+- 家庭成员：父母、祖辈、老师或其他重要成年人分别扮演什么角色
+- 当前问题：最近一次具体事件发生了什么
+- 用户目标：想解决当下冲突、做带娃计划、改善学习习惯，还是做长期规划
+- 红线信号：有没有安全、健康、学校、家庭暴力、严重心理风险
+
+背景不足时，agent 应先问，不应直接给泛泛建议。
+
+---
+
+## 使用场景
+
+### 场景1：作业崩溃
+
+```text
+使用 $ai-parenting-coach，孩子 8 岁，一写作业就哭，说自己不会。我越催越急，最后总是吼。帮我处理今晚这一次。
+```
+
+### 场景2：幼小衔接
+
+```text
+使用 $ai-parenting-coach，孩子 6 岁，准备上小学，平时奶奶带得多。帮我做一个不鸡娃的幼小衔接方案。
+```
+
+### 场景3：隔代冲突
+
+```text
+使用 $ai-parenting-coach，奶奶老是在孩子专注画画的时候打断，还会说画得不像。我怎么沟通？
+```
+
+### 场景4：屏幕边界
+
+```text
+使用 $ai-parenting-coach，孩子沉迷短视频，老人一带娃就给手机。我不想吵架，但要把规则立起来。
+```
+
+### 场景5：父母协同
+
+```text
+使用 $ai-parenting-coach，我和伴侣教育观念不一致，他觉得我太惯孩子，我觉得他太凶。孩子夹在中间。
+```
+
+---
+
+## 脱敏说明
+
+这个公开版来自两份内部提示词的脱敏重写：
+
+- `parenting-advisor`：贡献了"允许、陪伴、兜底、放手"和高质量陪伴工具
+- `首席教育规划师_Skill_v4.md`：贡献了家庭系统视角、六步问诊流、隔代冲突 SOP 和长期教育规划
+
+原始文件包含具体客户、孩子、家庭成员和生活细节，不能公开。这个仓库只保留方法，不保留任何真实家庭信息。
+
+---
+
+## 不适用范围
 
 这个 skill 不能替代医生、心理咨询师、社工、律师或学校专业支持。
 
 遇到自伤、伤人、严重拒学、疑似抑郁、疑似 ADHD、疑似自闭谱系、家暴、虐待、抚养权争议、用药诊断等问题，请优先找当地专业人士或应急资源。
 
-## 安装
-
-克隆仓库：
-
-```bash
-git clone https://github.com/Lucius1105/calm-parenting-coach.git
-```
-
-安装到 Claude Code：
-
-```bash
-mkdir -p ~/.claude/skills
-cp -R calm-parenting-coach/skills/calm-parenting-coach ~/.claude/skills/
-```
-
-安装到 Codex：
-
-```bash
-mkdir -p ~/.codex/skills
-cp -R calm-parenting-coach/skills/calm-parenting-coach ~/.codex/skills/
-```
-
-安装到 WorkBuddy：
-
-```bash
-mkdir -p ~/.workbuddy/skills
-cp -R calm-parenting-coach/skills/calm-parenting-coach ~/.workbuddy/skills/
-```
-
-## 使用示例
-
-```text
-使用 $calm-parenting-coach，孩子写作业一写就崩溃，我不想再吼了，帮我设计今晚的处理方式。
-```
-
-```text
-使用 $calm-parenting-coach，周末我一个人带 6 岁孩子，帮我做一个不鸡娃也不失控的安排。
-```
-
-```text
-使用 $calm-parenting-coach，老人总用短视频哄孩子，我怎么沟通才不撕破脸？
-```
-
-## 方法骨架
-
-这个 skill 默认按六步输出：
-
-1. 一句话判断：问题主要卡在发展层、状态层、关系层，还是行动层。
-2. 先稳住谁：先稳成人、孩子、关系，还是规则。
-3. 今晚动作：1-3 个立即可做的小动作。
-4. 可直接说的话：给家长自然话术。
-5. 7 天微循环：只设一个目标、一个动作、一个观察指标。
-6. 需要警惕：出现哪些信号应找专业支持。
+---
 
 ## 开源与支持
 
-本项目免费开放，采用 MIT License。
+MIT License，免费开放。
 
 如果它帮到了你，欢迎：
 
@@ -90,5 +239,3 @@ cp -R calm-parenting-coach/skills/calm-parenting-coach ~/.workbuddy/skills/
 - 分享给需要的爸爸妈妈
 - 提 Issue 反馈真实场景
 - 后续咖啡打赏入口补上后，可随缘支持
-
-愿更多父母少一点内耗，多一点稳定；更多孩子少一点被控制，多一点被看见。

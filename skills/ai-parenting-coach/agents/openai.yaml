@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 育儿教练"
+  short_description: "亲子沟通、隔代冲突、带娃计划和长期教育规划智能助手"
+  default_prompt: "Use $ai-parenting-coach，帮我把一次亲子冲突梳理成今晚可执行的沟通方案。"
