@@ -1,4 +1,4 @@
 interface:
-  display_name: "好爸妈 Skill"
-  short_description: "3-12岁亲子沟通、带娃计划、隔代冲突和长期教育规划助手"
+  display_name: "带好娃"
+  short_description: "AI育儿专家：3-12岁亲子沟通、带娃计划和隔代冲突助手"
   default_prompt: "Use $ai-parenting-coach，先帮我补齐家庭背景卡，再处理一次亲子冲突。"

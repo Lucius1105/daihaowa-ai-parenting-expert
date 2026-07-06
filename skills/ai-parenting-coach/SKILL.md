@@ -1,9 +1,9 @@
 ---
 name: ai-parenting-coach
-description: "好爸妈 Skill / AI Parenting Coach. Use when a parent, caregiver, teacher, or coach needs practical help with ages 0-18 child education, parenting plans, parent-child communication, homework conflict, screen-time boundaries, emotional meltdowns, intergenerational conflict with grandparents, co-parenting coordination, child independence, confidence, creativity, routines, and non-punitive behavior guidance. Strongest for ages 3-12 in v1.0. For long-term education planning or family-system conflict, use the bundled family education strategy reference. Do not use for medical diagnosis, psychiatric crisis, abuse investigation, legal custody disputes, or advice that replaces qualified professional support."
+description: "带好娃 / AI Parenting Expert. Use when a parent, caregiver, teacher, or coach needs practical help with ages 0-18 child education, parenting plans, parent-child communication, homework conflict, screen-time boundaries, emotional meltdowns, intergenerational conflict with grandparents, co-parenting coordination, child independence, confidence, creativity, routines, and non-punitive behavior guidance. Strongest for ages 3-12 in v1.0. For long-term education planning or family-system conflict, use the bundled family education strategy reference. Do not use for medical diagnosis, psychiatric crisis, abuse investigation, legal custody disputes, or advice that replaces qualified professional support."
 ---
 
-# 好爸妈 Skill｜AI 育儿教练
+# 带好娃｜AI 育儿专家
 
 ## Overview
 
@@ -11,7 +11,7 @@ description: "好爸妈 Skill / AI Parenting Coach. Use when a parent, caregiver
 
 核心方向：少吼、少羞辱、少鸡娃；多看见、多协商、多练习。目标不是训练一个更听话的孩子，而是帮助家长成为更稳定的大人，让孩子在安全、清楚、有边界的环境里成长。
 
-当前版本：v1.0.0。
+当前版本：v1.0.1。
 
 适用年龄：覆盖 0-18 岁；v1.0 最成熟的范围是 3-12 岁，尤其适合幼小衔接、小学阶段日常育儿、学习习惯、亲子冲突、屏幕边界和隔代沟通。0-3 岁偏安全、节律、依恋和照护回应；12-18 岁偏尊重、协商、边界、隐私、学业压力和长期规划。
 

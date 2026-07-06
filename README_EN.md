@@ -1,8 +1,8 @@
-# Good Parents Skill | AI Parenting Coach
+# DaihaoWa | AI Parenting Expert
 
 "Not to make children more obedient, but to help adults become calmer, more observant, and better-boundaried."
 
-![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
+![Version](https://img.shields.io/badge/Version-v1.0.1-blue)
 ![License](https://img.shields.io/badge/License-Free%20Non--Commercial-red)
 ![Agent Skill](https://img.shields.io/badge/Agent%20Skill-Claude%20Code%20%7C%20Codex%20%7C%20WorkBuddy-blue)
 ![Language](https://img.shields.io/badge/Language-Chinese%20%7C%20English-orange)
@@ -10,7 +10,7 @@
 2 parenting prompts × 1 complete Agent Skill × Family Context Card × 6-step resolution engine  
 Parent-child conflict / homework meltdowns / screen boundaries / grandparent conflict / school transition / long-term education planning
 
-Current version: v1.0.0. Free for personal, family, public-interest, and non-commercial education use. Commercial use requires written permission.
+Current version: v1.0.1. Free for personal, family, public-interest, and non-commercial education use. Commercial use requires written permission.
 
 [中文](README.md) | English
 
@@ -26,28 +26,28 @@ If you only want copyable prompts:
 If you want the full skill for Claude Code / Codex / WorkBuddy:
 
 ```bash
-git clone https://github.com/Lucius1105/ai-parenting-coach-skill.git
+git clone https://github.com/Lucius1105/daihaowa-ai-parenting-expert.git
 ```
 
 Claude Code:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.claude/skills/
+cp -R daihaowa-ai-parenting-expert/skills/ai-parenting-coach ~/.claude/skills/
 ```
 
 Codex:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.codex/skills/
+cp -R daihaowa-ai-parenting-expert/skills/ai-parenting-coach ~/.codex/skills/
 ```
 
 WorkBuddy:
 
 ```bash
 mkdir -p ~/.workbuddy/skills
-cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.workbuddy/skills/
+cp -R daihaowa-ai-parenting-expert/skills/ai-parenting-coach ~/.workbuddy/skills/
 ```
 
 Then ask your agent:
@@ -233,11 +233,19 @@ The author reserves the right to pursue unauthorized commercial use. See [LICENS
 
 ## Support
 
-If this skill helps you yell less, helps a child suffer less, or gives your family more clarity for long-term education, you are welcome to support the project with a small coffee donation.
+If this skill helps you yell less, helps a child suffer less, or gives your family more clarity for long-term education, you are welcome to support the project at any level that feels right.
 
 A child's education is a long-term and important project. One private tutoring session often starts around 200 RMB; if you find this prompt valuable for your family's long-term education, your support helps us keep maintaining and improving it for more children and families.
 
 I am also a father. I want to create value openly and legitimately, including earning tuition for my own child through useful work. Thank you for your support and investment.
+
+Suggested tiers:
+
+- RMB 9.9: buy me a coffee
+- RMB 199: buy me a meal
+- RMB 1999: patron-level recognition
+
+Donations are not purchases of services and do not create a consulting, course, or delivery relationship. The project remains free for personal, family, and non-commercial use. Commercial use still requires prior written permission.
 
 ![WeChat support QR code](assets/wechat-pay-qr.jpg)
 
@@ -255,7 +263,7 @@ WeChat Official Account / WeChat Channels: 阿徐教练
 
 ## Version and Updates
 
-- Current version: [v1.0.0](VERSION)
+- Current version: [v1.0.1](VERSION)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
 - License: [LICENSE](LICENSE)
 

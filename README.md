@@ -1,8 +1,8 @@
-# 好爸妈 Skill｜AI 育儿教练
+# 带好娃｜AI 育儿专家
 
 "不是让孩子更听话，而是让大人先稳住、看见孩子、守住边界。"
 
-![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
+![Version](https://img.shields.io/badge/Version-v1.0.1-blue)
 ![License](https://img.shields.io/badge/License-Free%20Non--Commercial-red)
 ![Agent Skill](https://img.shields.io/badge/Agent%20Skill-Claude%20Code%20%7C%20Codex%20%7C%20WorkBuddy-blue)
 ![Language](https://img.shields.io/badge/Language-中文%20%7C%20English-orange)
@@ -10,7 +10,7 @@
 2 份育儿专家提示词 × 1 个完整 Agent Skill × 家庭背景卡 × 六步问诊流  
 亲子冲突 / 作业崩溃 / 屏幕边界 / 隔代冲突 / 幼小衔接 / 长期教育规划
 
-当前版本：v1.0.0。个人、家庭、公益和非商业教育场景免费使用；未经书面许可禁止商业使用。
+当前版本：v1.0.1。个人、家庭、公益和非商业教育场景免费使用；未经书面许可禁止商业使用。
 
 中文 | [English](README_EN.md)
 
@@ -26,28 +26,28 @@
 想安装成 Claude Code / Codex / WorkBuddy 可调用的完整 skill：
 
 ```bash
-git clone https://github.com/Lucius1105/ai-parenting-coach-skill.git
+git clone https://github.com/Lucius1105/daihaowa-ai-parenting-expert.git
 ```
 
 Claude Code：
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.claude/skills/
+cp -R daihaowa-ai-parenting-expert/skills/ai-parenting-coach ~/.claude/skills/
 ```
 
 Codex：
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.codex/skills/
+cp -R daihaowa-ai-parenting-expert/skills/ai-parenting-coach ~/.codex/skills/
 ```
 
 WorkBuddy：
 
 ```bash
 mkdir -p ~/.workbuddy/skills
-cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.workbuddy/skills/
+cp -R daihaowa-ai-parenting-expert/skills/ai-parenting-coach ~/.workbuddy/skills/
 ```
 
 装好后对 agent 说：
@@ -60,7 +60,7 @@ cp -R ai-parenting-coach-skill/skills/ai-parenting-coach ~/.workbuddy/skills/
 
 ## 这是啥
 
-一句话：把一个家长的育儿困境，先整理成"家庭背景卡"，再用 AI 育儿教练帮你判断问题卡在哪里，最后给出能照着说、照着做的小方案。
+一句话：把一个家长的育儿困境，先整理成"家庭背景卡"，再用 AI 育儿专家帮你判断问题卡在哪里，最后给出能照着说、照着做的小方案。
 
 它不做三件事：
 
@@ -278,11 +278,19 @@ skills/ai-parenting-coach/references/family-education-strategist-prompt.md
 
 ## 支持与打赏
 
-如果这个 skill 帮你少吼了一次，帮孩子少受一次委屈，或者让你对孩子的长期教育更有方向，欢迎请我喝杯咖啡。
+如果这个 skill 帮你少吼了一次，帮孩子少受一次委屈，或者让你对孩子的长期教育更有方向，欢迎按自己的心意支持。
 
 孩子的教育是一个长期、重大、值得认真投入的项目。一节私教课常常 200 元起步；如果你觉得这个提示词对你的家庭长期有价值，可以随缘支持我们继续维护、升级，帮助更多孩子和家庭。
 
 我也是一个孩子的爸爸，也希望用正当创造，光明正大地为自己的孩子挣一些学费。感谢你的支持和投资。
+
+可参考三档：
+
+- 9.9 元：请你喝咖啡
+- 199 元：请你吃饭
+- 1999 元：精神认可赞助
+
+打赏不是购买服务，不形成咨询、课程或交付关系。项目仍然免费开放给个人、家庭和非商业场景使用；商业使用仍需提前取得书面许可。
 
 ![微信打赏二维码](assets/wechat-pay-qr.jpg)
 
@@ -300,7 +308,7 @@ skills/ai-parenting-coach/references/family-education-strategist-prompt.md
 
 ## 版本与更新
 
-- 当前版本：[v1.0.0](VERSION)
+- 当前版本：[v1.0.1](VERSION)
 - 更新日志：[CHANGELOG.md](CHANGELOG.md)
 - 授权条款：[LICENSE](LICENSE)
 
